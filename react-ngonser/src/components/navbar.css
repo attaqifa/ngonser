@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #47ABFF;
+    color: #fff;
+}
+
+.navbar-logo img {
+    width: 140px;
+    margin-left: 20px;
+}
+
+.navbar-search input[type="text"] {
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+}
+
+.navbar-search button {
+    padding: 8px 15px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.navbar-links a {
+    color: black;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+.navbar-links a:hover {
+    text-decoration: underline;
+}
